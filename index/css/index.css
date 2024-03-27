@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+
+    margin: 100px auto;
+    border: 1px solid #dbdbdb;
+    padding: 30px;
+    width: 400px;
+    height: 30px;
+}
+
+.login-title{
+    font-size: 15px;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    
+    margin-right: 15px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+    width: 120px;
+    height: 25px;
+
+    cursor: pointer;
+}
+
+.box:focus{
+    box-shadow: 0 0 10px 0 #dbdbdb;
+}
+
+.login-button{
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    width: 70px;
+    background-color: black;
+
+    color: white;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+h1{
+    background-color: aqua;
+    color: black;
+}

@@ -52,7 +52,7 @@ a:hover{
     text-align: center;
 }
 
-.container{
+#container{
     margin: auto;
 
     width: 90%;
