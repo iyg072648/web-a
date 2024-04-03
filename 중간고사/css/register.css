@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 100px auto;
+    border: 1px solid #dbdbdb;
+    padding: 30px;
+    width: 500px;
+}
+
+.register-title{
+    font-size: 25px;
+    text-align: center;
+}
+
+.register-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.register-text{
+    text-align: center;
+    margin-bottom: 5px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+
+    padding: 10px;
+    width: 100%;
+
+    cursor: pointer;
+}   
+
+.register-text:focus{
+    box-shadow: 0px 0px 10px 1px #dbdbdb;
+}
+
+.error-msg{
+    color: rgb(255, 73, 23);
+    font-size: 11px;
+}
+
+.register-button{
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    width: 80%;
+    background-color: black;
+
+    color: white;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.register-button:active{
+    background-color: #303030;
+    box-shadow: 0px 0px 10px 1px #dbdbdb;
+}
