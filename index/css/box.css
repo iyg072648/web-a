@@ -33,6 +33,11 @@
     cursor: pointer;
 }
 
+.login{
+    display: flex;
+    justify-content: end;
+}
+
 .i:focus{
     box-shadow: 0px 0px 10px 5px #dbdbdb;
 }
