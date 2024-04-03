@@ -87,7 +87,6 @@
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 .login-inputs{
     margin-right: 30px;
     border: 1px solid #dbdbdb;
@@ -96,17 +95,6 @@
     padding: 10px;
     width: 150px;
     height: 12px;
-=======
-.login{
-    display: flex;
-    align-items: center;
-    
-    margin-right: 15px;
-    border: 1px solid #dbdbdb;
-    outline: none;
-    width: 120px;
-    height: 25px;
->>>>>>> origin/main
 
     cursor: pointer;
 }
@@ -118,11 +106,7 @@
 .login-button{
     border: 1px solid #dbdbdb;
     padding: 10px;
-<<<<<<< HEAD
     width: 150px;
-=======
-    width: 70px;
->>>>>>> origin/main
     background-color: black;
 
     color: white;
@@ -130,7 +114,6 @@
 
     cursor: pointer;
 }
-<<<<<<< HEAD
 
 .login-button:active{
     background-color: #303030;
@@ -158,5 +141,3 @@
 
     margin: 50px;
 }
-=======
->>>>>>> origin/main
