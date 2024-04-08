@@ -3,8 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/product.css">
 </head>
 <body>
-    
+    <div id="container">
+        <header id="header">
+            <div class="account">
+                <div class="login">
+                    <label id="userid"></label>
+                    <input type="text" class="login-inputs" name="userid" id="userid" placeholder="아이디">
+                    <label id="userpw"></label>
+                    <input type="password" class="login-inputs" name="userpw" id="userpw" placeholder="비밀번호">
+                </div>
+                <button class="login-button">로그인</button>
+                <!-- <a href="register.html" class="account-btn">회원가입</a> -->
+            </div>
+            <div class="logo">
+                <h1>LOGO</h1>
+            </div>
+            <div class="menu">
+                <a href="/">OUTER</a>
+                <a href="/">TOP</a>
+                <a href="/">BOTTOM</a>
+                <a href="/">SHOSE</a>
+                <div class="search-box">
+                    <input type="text" id="search" class="search-input"><input type="submit" class="submit" value="검색">
+                </div>
+            </div>
+        </header>
+        <div class="product">
+            <div class="product-img">
+                <img src="./images/1795634_5_500.jpg" alt="">
+            </div>
+            <div class="product-info">
+                <img src="./images/1795634_5_500.jpg" alt="">
+            </div>
+        </div> 
+    </div>
 </body>
 </html>
