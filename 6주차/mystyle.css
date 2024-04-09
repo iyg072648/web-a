@@ -1,0 +1,15 @@
+h1{
+    width: 250px;
+    height: 50px;
+
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+a{
+    text-decoration-line: none;
+
+    color: blue;
+    font-size: 20px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: '0strich';
+            src: local('0strich Sans'),
+                url('./font/ostrich-sans-bold.woff') format('woff'),
+                url('./font/ostrich-sans-bold.ttf') format('truetype'),
+                url('./font/ostrich-sans-bold.svg') format('svg');
+        }
+        .wfont{
+            font-family: '0strich', sans-serif;
+        }
+        p{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <p>Using Default Fonts</p>
+    <p class="wfont">Using Web Fonts</p>
+</body>
+</html>
