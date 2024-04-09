@@ -17,6 +17,22 @@
     background-color: #acacac;
 }
 
+.account-btn{
+    text-align: center;
+
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    width: 70px;
+    background-color: black;
+
+    color: white;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    margin-left: 25px;
+}
+
 .logo{
     display: flex;
     justify-content: center;
@@ -27,7 +43,7 @@
     justify-content: end;
 }
 
-.account > input,a{
+.account > input{
     margin-top: 5px;
     margin-right: 15px;
 }
@@ -66,8 +82,13 @@
     height: 22px;
 }
 
-.submit{
+.input-submit{
+    width: 50px;
     height: 26px;
+
+    background-color: black;
+    border: 1px solid black;
+    color: white;
 }
 
 .inputs{
@@ -104,7 +125,7 @@
 }
 
 .login-button{
-    border: 1px solid #dbdbdb;
+    border: black;
     padding: 10px;
     width: 150px;
     background-color: black;

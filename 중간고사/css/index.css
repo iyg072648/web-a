@@ -11,18 +11,38 @@
     flex-wrap: wrap;
     justify-content: space-around;
 
-    background-color: beige;
+    /* background-color: beige; */
     /* flex-direction: column; */
 }
 
 
 .products-img{
-    background-color: gray;
-
-    text-align: center;
-    width: 300px;
+    width: 350px;
     height: 400px;
     border: 1px solid black;
 
-    margin: 50px;
+    margin: 50px 30px;
+    margin-bottom: 60px;
+}
+
+.products-info{
+    width: 350px;
+    height: 70px;
+    color: black;
+
+    margin-top: 5px;
+
+    line-height: 30px;
+
+    text-align: center;
+
+}
+
+img{
+    width: 350px;
+    height: 400px;
+}
+
+.info{
+    font-size: 15px;
 }

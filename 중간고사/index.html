@@ -12,13 +12,15 @@
         <header id="header">
             <div class="account">
                 <div class="login">
-                    <label id="userid"></label>
-                    <input type="text" class="login-inputs" name="userid" id="userid" placeholder="아이디">
-                    <label id="userpw"></label>
-                    <input type="password" class="login-inputs" name="userpw" id="userpw" placeholder="비밀번호">
+                    <form action="">
+                        <label id="userid"></label>
+                        <input type="text" class="login-inputs" name="userid" id="userid" placeholder="아이디">
+                        <label id="userpw"></label>
+                        <input type="password" class="login-inputs" name="userpw" id="userpw" placeholder="비밀번호">
+                        <input type="submit" class="login-button" value="로그인">
+                        <a href="register.html" class="account-btn">회원가입</a>
+                    </form>
                 </div>
-                <button class="login-button">로그인</button>
-                <!-- <a href="register.html" class="account-btn">회원가입</a> -->
             </div>
             <div class="logo">
                 <h1>LOGO</h1>
@@ -29,75 +31,100 @@
                 <a href="/">BOTTOM</a>
                 <a href="/">SHOSE</a>
                 <div class="search-box">
-                    <input type="text" id="search" class="search-input"><input type="submit" class="submit" value="검색">
+                    <form action="">
+                        <input type="text" id="search" class="search-input">
+                        <input type="submit" class="input-submit" value="검색">
+                    </form>
                 </div>
             </div>
         </header>
         <div class="products-list">
             <div class="products-img">
-                <img src="./images/1795634_5_500.jpg" alt="">
-                <div class="products-info">
-                    <h3></h3>
-                    <p></p>
-                    <a href="#" class="buy">구매하기</a>
-                </div>
+                <a href="#" class="buy">
+                    <img src="./images/자켓2.jpg" alt="">
+                    <span class="info">빅 사이즈 겨울 아우터 코트 무스탕</span>
+                    <div class="products-info">
+                        <h4>항공 점퍼</h4>
+                        <hr>
+                        <p>40,000원</p>
+                    </div>
+                </a>
             </div>  
             <div class="products-img">
-                <img src="./images/1795634_5_500.jpg" alt="">
-                <div class="products-info">
-                    <h3></h3>
-                    <p></p>
-                    <a href="#" class="buy">구매하기</a>
-                </div>
+                <a href="#" class="buy">
+                    <img src="./images/자켓.jpg" alt="">
+                    <span class="info">빈티지 느낌 봄 캐주얼 아우터</span>
+                    <div class="products-info">
+                        <h4>데님 자켓</h4>
+                        <hr>
+                        <p>30,000원</p>
+                    </div>
+                </a>
             </div>  
             <div class="products-img">
-                <img src="./images/1795634_5_500.jpg" alt="">
-                <div class="products-info">
-                    <h3></h3>
-                    <p></p>
-                    <a href="#" class="buy">구매하기</a>
-                </div>
+                <a href="#" class="buy">
+                    <img src="./images/셔츠.jpg" alt="">
+                    <span class="info">캐주얼 오버핏 셔츠</span>
+                    <div class="products-info">
+                        <h4>오버핏 셔츠</h4>
+                        <hr>
+                        <p>25,000원</p>
+                    </div>
+                </a>
             </div>  
             <div class="products-img">
-                <img src="./images/1795634_5_500.jpg" alt="">
-                <div class="products-info">
-                    <h3></h3>
-                    <p></p>
-                    <a href="#" class="buy">구매하기</a>
-                </div>
+                <a href="#" class="buy">
+                    <img src="./images/셔츠2.jpg" alt="">
+                    <span class="info">플루터 구김없는 셔츠</span>
+                    <div class="products-info">
+                        <h4>링클프리 셔츠</h4>
+                        <hr>
+                        <p>23,000원</p>
+                    </div>
+                </a>
             </div>  
             <div class="products-img">
-                <img src="./images/1795634_5_500.jpg" alt="">
-                <div class="products-info">
-                    <h3></h3>
-                    <p></p>
-                    <a href="#" class="buy">구매하기</a>
-                </div>
+                <a href="#" class="buy">
+                    <img src="./images/청바지.jpg" alt="">
+                    <span class="info">데일리룩으로 입기 편한 청바지</span>
+                    <div class="products-info">
+                        <h4>스판일자핏 청바지</h4>
+                        <hr>
+                        <p>29,000원</p>
+                    </div>
+                </a>
             </div>  
             <div class="products-img">
-                <img src="./images/1795634_5_500.jpg" alt="">
-                <div class="products-info">
-                    <h3></h3>
-                    <p></p>
-                    <a href="#" class="buy">구매하기</a>
-                </div>
+                <a href="#" class="buy">
+                    <img src="./images/바지.jpg" alt="">
+                    <span class="info">코튼 면바지 치노 팬츠 바지 오버핏 스트링</span>
+                    <div class="products-info">
+                        <h4>치노팬츠 바지</h4>
+                        <hr>
+                        <p>18,000원</p>
+                    </div>
+                </a>
             </div>  
             <div class="products-img">
-                <img src="./images/1795634_5_500.jpg" alt="">
-                <div class="products-info">
-                    <h3></h3>
-                    <p></p>
-                    <a href="#" class="buy">구매하기</a>
-                </div>
+                <a href="#" class="buy">
+                    <img src="./images/신발1.jpg" alt="">
+                    <div class="products-info">
+                        <h4>슈프림몬클 신발</h4>
+                        <hr>
+                        <p>27,500원</p>
+                    </div>
+                </a>
             </div>  
             <div class="products-img">
-                <img src="./images/1795634_5_500.jpg" alt="">
-                <div class="products-info">
-                    <h3></h3>
-                    <p></p>
-                    <a href="#" class="buy">구매하기</a>
-                </div>
-            </div>  
+                <a href="#" class="buy">
+                    <img src="./images/신발2.jpg" alt="">
+                    <div class="products-info">
+                        <h4>어글리슈즈</h4>
+                        <hr>
+                        <p>49,000원</p>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </body>
