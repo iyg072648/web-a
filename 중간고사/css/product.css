@@ -51,14 +51,11 @@ ul{
 .orders{
     display: flex;
     justify-content: center;
+    
+    width: 400px;
+    margin: 0px 100px;
+    margin-top: 150px;
 }
-
-.form{
-    width: 300px;
-    margin: 100px 200px;
-}
-
-
 
 
 
